@@ -1,0 +1,449 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"http",
+				"HttpResponse"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"S",
+				"STATIC_URL"
+			],
+			[
+				"c",
+				"cleaned_data"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"clen",
+				"cleaned_data"
+			],
+			[
+				"Sg",
+				"SignUpForm"
+			],
+			[
+				"que",
+				"queue"
+			],
+			[
+				"v",
+				"visited"
+			],
+			[
+				"ma",
+				"malloc"
+			],
+			[
+				"str",
+				"start"
+			],
+			[
+				"w",
+				"wgt"
+			],
+			[
+				"make",
+				"makeheap"
+			],
+			[
+				"s",
+				"sizeof"
+			],
+			[
+				"p",
+				"printf\tprintf …"
+			],
+			[
+				"sz",
+				"size"
+			],
+			[
+				"print",
+				"printmoves"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"pr",
+				"printentry"
+			],
+			[
+				"prin",
+				"printentry"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"root",
+				"roothead"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"Ex",
+				"exists"
+			],
+			[
+				"i",
+				"inorder"
+			],
+			[
+				"in",
+				"inc\t#include <…>"
+			],
+			[
+				"tmp",
+				"tmparr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/pranav/lfs/lfs"
+	],
+	"file_history":
+	[
+		"/home/pranav/UCP/UCP/UCP/login/templates/login-register.html",
+		"/home/pranav/UCP/UCP/UCP/UCP/settings_local.py",
+		"/etc/postfix/main.cf",
+		"/home/pranav/Desktop/fb1.c",
+		"/home/pranav/UCP/UCP/UCP/login/models.py",
+		"/home/pranav/UCP/UCP/UCP/login/views.py",
+		"/home/pranav/cool/src/shortener/admin.py",
+		"/home/pranav/cool/src/cool/settings.py",
+		"/home/pranav/UCP/University-Campus-Portal-UCP/UCP/UCP/settings_local.py",
+		"/home/pranav/cool/src/shortener/models.py",
+		"/home/pranav/new/src/templates/local.html",
+		"/home/pranav/new/src/newsletter/forms.py",
+		"/home/pranav/new/src/templates/navbar.html",
+		"/home/pranav/new/src/templates/javascript.html",
+		"/home/pranav/new/src/templates/head_css.html",
+		"/home/pranav/new/src/templates/base.html",
+		"/home/pranav/new/src/cool/settings.py",
+		"/home/pranav/new/src/templates/home.html",
+		"/home/pranav/new/src/templates/forms.html",
+		"/home/pranav/new/src/cool/urls.py",
+		"/home/pranav/new/src/newsletter/views.py",
+		"/media/pranav/New Volume/Movies/Old Dogs (2009) [1080p]/Old Dogs (2009) [1080p] Bluray [FIlmxy.cc].srt",
+		"/home/pranav/new/src/newsletter/models.py",
+		"/home/pranav/new/src/newsletter/admin.py",
+		"/home/pranav/new/src/static_in_pro/our_static/img/example.txt",
+		"/home/pranav/new/src/newsletter/templates/home.html",
+		"/home/pranav/new/src/newsletter/home.html",
+		"/home/pranav/zulip/tools/provision.py",
+		"/home/pranav/new/src/new/urls.py",
+		"/home/pranav/Desktop/Algolab/in.txt",
+		"/home/pranav/Desktop/Algolab/assg10a.c",
+		"/home/pranav/Desktop/Algolab/assg08a.c",
+		"/home/pranav/Desktop/Algolab/assg09a.c",
+		"/home/pranav/mtblog/manage.py",
+		"/home/pranav/Downloads/assg10a.c",
+		"/home/pranav/Desktop/Algolab/input.txt",
+		"/home/pranav/Desktop/Algolab/assg07a.c",
+		"/home/pranav/Desktop/Algolab/inpt.txt",
+		"/home/pranav/Desktop/Algolab/xac",
+		"/home/pranav/Desktop/Algolab/xaa",
+		"/home/pranav/Desktop/Algolab/tes.c",
+		"/home/pranav/Desktop/Algolab/sml.txt",
+		"/home/pranav/Desktop/Algolab/ou.txt",
+		"/home/pranav/Desktop/Algolab/assg01b.c",
+		"/home/pranav/Desktop/Algolab/assg06b.c",
+		"/home/pranav/Desktop/Algolab/assg01a.c",
+		"/home/pranav/Desktop/Algolab/assg06a.c",
+		"/home/pranav/Desktop/Algolab/assg05a.c",
+		"/home/pranav/Desktop/Algolab/assg04afinal.c",
+		"/home/pranav/Desktop/Algolab/assg03b.c",
+		"/home/pranav/Desktop/Algolab/assg03a.c",
+		"/home/pranav/Desktop/Algolab/assg02a.c",
+		"/home/pranav/Desktop/Algolab/test.c",
+		"/home/pranav/Desktop/Algolab/assg07b.c",
+		"/home/pranav/Desktop/Algolab/output1.txt",
+		"/home/pranav/Downloads/Marvels Agents of S.H.I.E.L.D S04E04 [480p] HDTV/Marvels.Agents.of.S.H.I.E.L.D.S04E04.HDTV.x264-KILLERS.srt",
+		"/home/pranav/Desktop/Algolab/assg02b.c",
+		"/home/pranav/Downloads/assg06b.c",
+		"/home/pranav/Desktop/python/first.py",
+		"/home/pranav/Desktop/Algolab/assgo6a.c",
+		"/home/pranav/Firefox_wallpaper.png",
+		"/home/pranav/script.sh",
+		"/home/pranav/Desktop/him/randInput.c",
+		"/home/pranav/Desktop/him/assg04b_2.c",
+		"/home/pranav/Desktop/him/assg04b_1.c",
+		"/home/pranav/Desktop/him/graph.sh",
+		"/home/pranav/Desktop/him/data_file.txt",
+		"/home/pranav/Desktop/him/Output_Time.txt",
+		"/home/pranav/Desktop/Algolab/data_file.txt",
+		"/home/pranav/Desktop/assg04b_1.c",
+		"/home/pranav/Desktop/assg04a.c",
+		"/home/pranav/Desktop/Algolab/graph.sh",
+		"/home/pranav/Desktop/Algolab/assg04b_1.c",
+		"/home/pranav/Desktop/Algolab/assg04a.c",
+		"/home/pranav/Desktop/Algolab/Output_Time.txt",
+		"/home/pranav/Desktop/Algolab/GNU_plot_data_File.txt",
+		"/home/pranav/Desktop/Algolab/assg04b_2.c",
+		"/home/pranav/Desktop/Algolab/randInput.c",
+		"/home/pranav/Desktop/Algolab/assg04b.c",
+		"/home/pranav/Desktop/assg03b.c",
+		"/home/pranav/Desktop/prog2.c"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"register",
+			"csrf",
+			">\n",
+			"from",
+			"instance",
+			"ConfigParser",
+			"configparser",
+			"(\"\\",
+			"flag",
+			"flow",
+			"heap",
+			"find",
+			"keyed",
+			"keyer",
+			"the child is ",
+			" k "
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"max",
+			"list",
+			"l"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 105.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "lfs.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
