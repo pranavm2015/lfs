@@ -5,4 +5,5 @@ from .models import info
 
 def login_home(request):
 	queryset = info.objects.all()
-	return render(request, "login.html", queryset)	
+	context = {"list_all" : queryset}
+	return render(request, "site_basic.html", context)	
