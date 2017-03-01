@@ -1,9 +1,6 @@
-from django.http import HttpResponse
 from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 
-from .models import info
-
-def login_home(request):
-	queryset = info.objects.all()
-	context = {"list_all" : queryset}
-	return render(request, "site_basic.html", context)	
+@login_required(login_url="login/")
+def home(request):
+	return render(request,"home.html")
