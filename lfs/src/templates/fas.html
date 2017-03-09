@@ -1,0 +1,39 @@
+ {% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<div class="row">	
+<div class="jumbotron">
+
+  <table class="table" align = "center">
+  <thead class="thead-inverse">
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Availability</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class = "table-active">
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Active</td>
+    </tr>
+    <tr class = "table-warning">
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Inactive</td>
+    </tr>
+    <tr class = "table-active">
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>Active</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</div>
+</div>
+{% endblock %}

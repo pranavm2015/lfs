@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+
+<div class="jumbotron">
+  <h3>Hello {{ user.username }} !</h3>
+
+  <table class="table" align = "center">
+  <tbody>
+    <tr class = "table-active">
+      <th scope="row">Username</th>
+      <td>{{ user.username }}</td>
+    </tr>
+    <tr class = "table-warning">
+      <th scope="row">Email</th>
+      <td> {{ user.email }} </td>    
+    </tr>
+    <tr class = "table-active">
+      <th scope="row">User Type</th>
+      <td> {{ user.usertype.userType }} </td>
+    </tr>
+  </tbody>
+  </table>
+
+</div>
+</div>
+</div>
+{% endblock %}
