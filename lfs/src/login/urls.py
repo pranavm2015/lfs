@@ -11,4 +11,5 @@ urlpatterns = [
     url(r'^lsb/$', views.lsb, name='lsb'),
     url(r'^fas/$', views.fas, name='fas'),
     url(r'^prof/$', views.prof, name='prof'),
+    url(r'^lsb/stopwatch_try.html$', views.stopwatch, name='stop'),
 ]

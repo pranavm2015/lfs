@@ -1,0 +1,51 @@
+{% load staticfiles %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>mnsbjs</title>
+ <link rel = "stylesheet" type = "text/css" href = "{% static 'css/style.css' %}" >
+</head>
+<body>
+<div class="plane">
+  <div class="cockpit">
+    <h1>Please select a seat</h1>
+  </div>
+  <div class="exit exit--front fuselage">
+    
+  </div>
+  <ol class="cabin fuselage">
+    <li class="row row--1">
+      <ol class="seats" type="A">
+      {% for j in bseat %}
+      {% if j.booked %}
+       <li class="seat">
+          <input type="checkbox" disabled id="{{j.seat}}" />
+          <label for="{{j.seat}}">Occupied</label>
+        </li>
+      {% else %}
+        <li class="seat">
+          <input type="checkbox" id="{{j.seat}}" />
+          <label for="{{j.seat}}">{{j.seat}}</label>
+        </li>
+      {% endif %}
+        {% if forloop.counter|divisibleby:6 %}
+        </ol>
+        </li>
+        <li class = "row row --1">
+        <ol class = "seats type = "A">
+        {% endif %}
+      {% endfor %}
+      </ol>
+    </li>
+  </ol>
+</div>
+<div>
+<form align = "center" method="POST" class="post-form">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">Book</button>
+</form>
+</div>
+</body>
+</html>
