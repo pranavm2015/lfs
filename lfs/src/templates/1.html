@@ -42,9 +42,25 @@
   </ol>
 </div>
 <div>
+<script>
+{% if chk == "1" %}
+alert("Seat already booked")
+{% endif %}
+{% if chk == "2" %}
+alert("Please enter a valid Seat No.")
+{% endif %}
+</script>
+<p>{{user.usertype.seat_booked}}</p>
 <form align = "center" method="POST" class="post-form">{% csrf_token %}
+    <h4>Enter correct Seat No.</h4>
     {{ form.as_p }}
-    <button type="submit" class="save btn btn-default">Book</button>
+    <button type="submit" class="save btn btn-default">
+      {% if user.usertype.seat_booked < 1 %}
+      Book
+      {% else %}
+      Unbook
+      {% endif %}
+    </button>
 </form>
 </div>
 </body>

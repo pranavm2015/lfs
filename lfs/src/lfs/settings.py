@@ -9,7 +9,7 @@ DEBUG = True
 
 SECRET_KEY = 'sn%$xti(y4m*unt_0%d7gp2#3^)4(0w5!c-1n(+hcldpk$--ul'
 
-ALLOWED_HOSTS = ['172.16.185.134', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['172.16.134.114','172.16.185.134', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -19,9 +19,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'login',
-    'crispy_forms'
 ]
-CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

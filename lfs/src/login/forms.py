@@ -1,6 +1,8 @@
 from django.contrib.auth.forms import AuthenticationForm 
 from django import forms
-from .models import seat
+from .models import seat, usertype
+from django.contrib.auth.models import User
+
 
 class LoginForm(AuthenticationForm):
     username = forms.CharField(label="Username", max_length=30, 
@@ -13,4 +15,10 @@ class PostForm(forms.ModelForm):
 
     class Meta:
         model = seat
-        fields = ('seat','booked')
+        fields = ('seat',)
+
+# forms.py
+class UserForm(forms.ModelForm):
+    class Meta:
+        model = usertype
+        fields = ('seat_booked', )
