@@ -23,6 +23,6 @@ his/her respective room or not which would solve this problem completely.
 ## Goals Achieved:
 We have come up with a Web Portal as well as an Android Application which allows you to book a seat in the Library or to use the Faculty Appointment System. 
 The user can submit any suggestions/bugs in the website via Contact us Form. The About Us page is basically the aim and objectives of our project. Once the user has logged in, he/she will be recognized if he/she is a faculty or a student and different options would be available accordingly. For the students, two options are available, either Book Appointment to meet the Teacher or Book a seat in the Library.
-The Application has same functionality as the Web Portal and is self explanatory as well.
+The Application has same functionality as the Web Portal and is self explanatory as well. Thanks!
 
 
