@@ -2,7 +2,7 @@
 
 Our project was to introduce an online seat booking system for our college library which will
 be functional throughout the year and an online system to verify whether a person is in
-his/her respective room or not which would solve this problem completely.
+his/her respective room or not which would solve this problem completely. This project has been done as a part of Innovation Project course.
 
 ## Group Members:
 1. Pranav Mutharia
