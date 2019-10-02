@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+
+<div class="jumbotron">
+  <h3>Hello {{ user.username }} !</h3>
+  <form method="get" action="/lsb">
+  <center><input href = "/lsb/" class="btn btn-success btn-md" type="submit" value="Library Seat Booking" /></center>
+  </form>
+  <br><br>
+
+  {% if user.usertype.userType == "student" %}
+  <form method="get" action="/fas">
+  <center><input href = "/fas/" class="btn btn-success btn-md" type="submit" value="Faculty Appointment System" /></center>
+  </form>
+  {% else %}
+  <form method="get" action="/prof">
+  <center><input href = "/fas/" class="btn btn-success btn-md" type="submit" value="Manage Your Appointments" /></center>
+  </form>
+  {% endif %}
+</div>
+</div>
+</div>
+{% endblock %}

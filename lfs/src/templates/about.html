@@ -1,0 +1,91 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<title>About LFS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif, background-color : #18bc9c;}
+h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+
+
+<!-- Header -->
+<header class="w3-container w3-green	 w3-center w3-padding-128">
+  <h1 class="w3-margin w3-jumbo">ABOUT</h1>
+  <a href="/" button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</a>
+</header>
+
+<!-- irst Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 class="w3-text-grey">Library Faculty System</h1>
+      
+      <p>During the mid semester &amp; end semester examinations in IIT Patna, our library is
+        generally full packed with students so there is hardly any seats left towards the fall of
+        the day. Also students are not able to verify whether professors are in their respective
+        rooms for them to meet so as to clear doubts or for any other purposes.<br>
+        Our idea is to introduce an online seat booking system for our college library which will
+        be functional throughout the year and an online system to verify whether a person is in
+        his/her respective room or not which would solve this problem completely.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-green"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-green w3-margin-right"></i>
+    </div>	
+
+    <div class="w3-twothird">
+      <h1>Aim &amp; Objective:</h1>
+      
+
+      <p class="w3-text-grey">1. Students, before coming to the library would be able to access the seating
+        arrangement of the Library and if they find a suitable seat vacant they could book
+        it upto certain number of hours, say ‘A’ hours. If the student fails to check-in the
+        library within ‘X’ minutes ( for boys ) and ‘Y’ minutes ( for girls ) of the booking
+        time, the seat they had selected would be vacant again for all to see. Each
+        identity card of IIT Patna has a bar code on the front side of it. We would be using
+        Image Processing to read the code and hence confirm the student’s arrival within
+        the given amount of time constraint. Hence the seat would be finally booked for
+        the next ‘A’ hours.<br>
+        2. The respective rooms for teachers and administrative personnel will have a
+        human detector attached to it to verify of their availability automatically and
+        update it on the site. Students can also book appointments and teachers can
+        approve them online to ease the process.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Carrom Ramvanu Juice Pivanu Majani Life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+   <a href="http://www.google.com"><img src="{% static 'img/git.png' %}""></a>
+
+ </div>
+ </footer>
+
+
+
+</body>
+</html>
